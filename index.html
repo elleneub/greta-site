@@ -36,14 +36,12 @@
           </div> 
           <div class="collapse navbar-collapse navbar-ex1-collapse"> 
             <div class="cl-effect-12">
-              <ul class="nav navbar-nav pull-right">
-                <li><a href="index.html">Home</a></li>          
+              <ul class="nav navbar-nav pull-right">     
                 <li><a href="about.html">About</a></li>
                 <li><a href="events.html">Events</a></li>
                 <li><a href="blog_index.html">News</a></li>
-                <li><a href="#">Pages</a></li>
                 <li><a href="contact.html">Contact</a></li>
-                <li><a href="#">Elements</a></li>
+                <li><button type="button" class="btn btn-danger">Donate</button></li>
               </ul>
             </div>
           </div>
@@ -68,6 +66,7 @@
             <div class="flex-caption flex-caption1">
               <div class="container">
                 <div class="row">
+                  <div class="col-md-6"></div>
                   <div class="col-md-6">
                     <h1 class="caption-headline">
                     Greta Neubauer - Progressive for Wisconsin’s 66th Assembly District 
@@ -82,30 +81,44 @@
   </section>
   
 	<!--slider end--> 
-  <div class="wrapper100percent">
-  <div class="main-boxes">
-    <div class="one-box1">
-      <div class="one-box1-inner">
-        <h3>Your vote counts!</h3>
-      </div>
+  <div class="get-involved-section wrapper100percent">
+    <div class="row">
+        <div class="col-12 col-md-4">
+          Want to get involved? Let us know and we'll get back to you soon.
+        </div>
+        <div class="col-12 col-md-8">
+          <!-- comment-form -->
+        <form class="wrapper100percent" method="post" action="sendEmail.php">
+          <div id="main">
+            <div>
+              <p>
+              <input type="text" placeholder="your name" name="name" id="name"/>
+              </p> 
+            </div>
+            <div>
+              <p> 
+              <input type="text" placeholder="your e-mail address" name="email" id="email" />
+              </p> 
+            </div>
+            <div>
+              <p> 
+              <input type="text" placeholder="subject" name="subject" id="subject" /> 
+              </p> 
+            </div>
+              <p>
+              <textarea placeholder="your message" name="comments" id="comments" rows="12" cols="5"></textarea>
+              </p>
+              <div class="buttoncontact">
+                <p>
+                <input  type="submit"  name="submit" id="submit" value="send request"/>
+                </p>
+              </div>
+              <ul class="col-sm-12" id="response"></ul> 
+            </div>
+          </form> 
+          <!-- comment-form-end end --> 
+        </div>
     </div>
-    <div class="one-box2">
-      <div class="one-box2-inner">
-        <h5>One vote is small</h5> 
-        <i class="fa fa-star icon"></i> <h2>milion votes</h2> <i class="fa fa-star icon"></i>
-        <h3> are lot!
-        </h3>
-      </div>
-    </div>
-    <div class="one-box3">
-      <div class="one-box3-inner">
-        <h3> See more about campaign 
-        </h3>
-        <br>
-        <a href="#" class="button1 firstcolor small whiteborder">Read more <i class="fa fa-angle-down icon"></i></a>
-      </div>
-    </div>
-  </div>
   </div>
   <div class="divider-space">
   </div> 

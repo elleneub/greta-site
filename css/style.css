@@ -1285,7 +1285,8 @@ html[xmlns] .flexslider .slides {
   position: absolute;
   /* top: 50%; */
   width: 100%;
-  margin-top: -200px;
+  margin-top: -300px;
+  
 }
 .flex-caption1 h1,
 .flex-caption1 h2,
@@ -3924,3 +3925,33 @@ ul.pagination li a {
   background-color: #2c3e50;
 }
 /************ pagination end ************/
+
+/************* Sam's Styles *************/
+.navbar-nav > li > button {
+  margin: 33px 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: rgb(216, 44, 64);
+}
+
+.navbar {
+  background: rgb(255, 252, 247);
+}
+
+.flex-caption .caption-headline {
+  background: rgba(255,255,255,0.5);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.get-involved-section {
+  background: rgb(84, 110, 238);
+}
+
+.get-involved-section .row {
+  margin: 40px 80px;
+}
+
+.get-involved-section {
+  color: white;
+}
