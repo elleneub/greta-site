@@ -14,6 +14,5 @@ This site is deployed via FTP (FileZilla) to an iPage server where Elle Neubauer
 
 ## Todos
 
-- Add button spacing
 - Make website secure (ssl cert and TLC)
-- Stop autoscrolling to voting map
+- Add donate button to top of page on mobile
