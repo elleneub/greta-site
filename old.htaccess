@@ -1,0 +1,5 @@
+<IfModule>
+RewriteEngine on
+RewriteCond %{HTTP_HOST} !^votegreta.com$ [NC]
+RewriteRule ^(.*)$ http://www.votegreta.com/$1 [L,R=301,NC]
+</IfModule>
