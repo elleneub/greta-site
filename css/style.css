@@ -3970,7 +3970,7 @@ ul.pagination li a {
 }
 /************ pagination end ************/
 
-/************* Sam's Styles *************/
+/************* Elle's Styles *************/
 
 .navbar-nav > li button {
   padding: 20px 30px;
@@ -4011,6 +4011,12 @@ footer.bottom {
 
 .socialicons-big ul.socialicons li i:hover {
   border-width: 2px;
+}
+
+@media (max-width: 600px) {
+  #donate_button {
+    margin-bottom: 10px;
+  }
 }
 
 /****** Colors *******/
