@@ -3989,6 +3989,10 @@ ul.pagination li a {
   border-radius: 5px;
 }
 
+.take-action-buttons button {
+  margin: 8px
+}
+
 .get-involved-section .row {
   margin: 40px 80px;
 }

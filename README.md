@@ -10,9 +10,6 @@ Uses Bootstrap v3.3.6 for styling and layout. Note that bootstraps utility spaci
 
 ## Deployment
 
-This site is deployed via FTP (FileZilla) to an iPage server where Elle Neubauer is hosting it.
+This site is set up for automatic deployment through cloudflare.
 
 ## Todos
-
-- Make website secure (ssl cert and TLC)
-- Add donate button to top of page on mobile
